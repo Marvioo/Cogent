@@ -12,6 +12,9 @@ public class Types {
 		boolean answer = isEqual && isDifferent;
 		sum += 1000;
 		boolean answer2 = !answer;
+		float multiple = 5.0f * 100;
+		short mod = 25 % 4;
+		long sum2 = 234L + 222;
 	}
 
 }
