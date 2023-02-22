@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Insert Data</h2>
+	<form action="postData" method="post">
+        <table>
+  
+            <tr>
+                <td>Id:</td>
+                <td><input type="text" name="id" /></td>
+            </tr>
+            <tr>
+                <td>name:</td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            
+			<tr>
+                <td>company:</td>
+                <td><input type="text" name="company" /></td>
+            </tr>
+ 
+        </table>
+  
+        <input type="submit" value="Submit">
+  
+    </form>
+    <h2>Delete Data</h2>
+    	<form action="deleteData" method="post">
+        <table>
+  
+            <tr>
+                <td>Id:</td>
+                <td><input type="text" name="id2" /></td>
+            </tr>
+ 
+        </table>
+  
+        <input type="submit" value="delete">
+  
+    </form>
+    <h2>Show table</h2>
+    <input type="button" action="showData" method="get" value="Show Table">
+</body>
+</html>
